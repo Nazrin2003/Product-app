@@ -1,8 +1,10 @@
 import React from 'react'
+import Nav from './Nav'
 
 const SearchProduct = () => {
   return (
     <div>
+        <Nav/>
         <center><h1 px-5 py-5>Search Product</h1></center>
         <div className="container">
             <div className="row g-4 px-5 py-5">
